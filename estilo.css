@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:sans-serif;
+
+}
+
+/* === INICIO DA SECAO TOPO === */
+
+.secao-fundo{
+   background-image: url(img/imagem\ fundo.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 550px;
+   background-position: center;
+}
+.imagem-1{
+    height: 35px;
+    box-shadow:5px 5px 5px 1px #0c070773;
+}
+.nome-da-logo {
+    display: inline;
+    color:#140303cb;
+    font-size: 18px; 
+
+}
+
+.nome-logo{
+    font-size: 18px;
+    color:#140303cb
+}
+
+
+.secao-container{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px auto 0;
+    background: #ffffff61;
+    box-shadow: 0 8px 32px 9px #33377077 inset;
+}
+
+
+.titulo-topo{
+    font-size: 60px;
+    color: #0be8f8;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0  40px;
+}
+
+.link-fale-conosco {
+    text-align: center;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #0be8f8;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.link-fale-conosco a {
+    color: #ffff;
+    text-decoration: none;
+}
+.secao-container img{
+   width:20px 
+}
+/* === FIM DA SEÇÃO TOPO === */
+
+
+/* === INICIO DA SEÇÃO SERVIÇO === */
+.secao-servico{
+    padding: 10px 25px;
+}
+
+.subititulo {
+    text-align: center;
+    color: #0be8f8;
+    padding:25px 0 25px 0;
+    margin-left: 600px;
+    width: 600px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.negrito{
+    font-size: 20px;
+    color: #000000;
+    font-weight:600;
+}
+.secao-servico p{
+    font-size: 19px;
+    text-align: justify;
+    width: 1000px;
+    min-height: 100px;
+    line-height:30px
+}
+
+.secao-servico li {
+    margin-left: 350px;
+}
+
+.secao-foto-pets{
+    width: 1200px;
+    padding: 25px 20px;
+}
+.img-pets{
+    width: 1090px;
+    height: 150px;
+    box-shadow:5px 8px 15px 1px #000000fd;
+    margin: 10px;
+}
+.pets{
+    overflow-x: scroll;
+    display: flex;
+    margin-left: 500px;
+    width: 850px;
+}
+.trabalho-feito{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 600px;
+    padding-bottom:35px;
+    color:#0be8f8;
+    font-weight: bold;
+}
+/* === FIM DA SEÇÃO SERVIÇO === */
+
+
+/* === INICIO DA SECAO FAIXA 1 E 2 === */
+.secao-faixa {
+    background-color: #0be8f8;
+    border-radius: 15px;
+    margin-top: 35px;
+
+}
+
+.nome-faixa {
+    padding:25px 20px;
+    font-size: 20px;
+    margin-left: 650px;
+    width:550px;
+    text-align: justify;
+    color: #fffffffd;
+}
+
+.redes-sociais{
+    margin-left: 820px;
+}
+
+.logo-sociais{
+ width: 3vh;
+ margin: 10px; 
+}
+/* === FIM DA SECAO FAIXA 1 E 2 ===*/
+
+/* === INICIO DA SECAO DE MARCAS === */
+.secao-marcas{
+    padding: 25px 15px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0be8f8;
+    padding-top: 25px;
+}
+
+.marcas{
+    width: 190px;
+    height: 180px;
+    margin-left: 183px;
+}
+/* === FIM SECAO MARCAS === */
+
+/* === INICIO SECAO LOCAL === */
+.secao-local{
+   min-width: 750px;
+   padding: 25px 15px;
+}
+iframe{
+    width: 60vh;
+    margin-left: 575px;
+    margin-top: 20px;
+}
+
+.nome-local{
+    font-size: 19px;
+    margin-top: 50px;
+    margin-left: 806px;
+}
+/* === FIM SECAO LOCAL === */
+
+/* === RODAPE ===*/
+.rodape{
+    background-color: #0be8f8;
+}
+.autor{
+    height: 44px;
+    margin-left: 722px;
+    font-size: 20px;
+    color:#f80b0b;
+    padding-top: 33px;
+}
+/* === FIM RODAPE === */
